@@ -44,5 +44,5 @@ def add_cat(name):
 if __name__ == '__main__':
     print "Starting Rango population script..."
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project.settings')
-    from rango.models import Category, Page
+    #from rango.models import Category, Page
     populate()
