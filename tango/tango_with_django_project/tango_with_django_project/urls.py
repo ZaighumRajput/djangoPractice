@@ -3,6 +3,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
+#in order
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'tango_with_django_project.views.home', name='home'),
